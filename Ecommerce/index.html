@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Clothes Shop</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<h1>Clothes Shop</h1>
+
+<div class="products">
+    <div class="product">
+        <img src="https://i5.walmartimages.com/seo/Wyobmus-Men-s-Oxford-Shirt-Regular-Fit-Solid-Button-Down-Collar-Shirts-Business-Casual-Shirts-Long-Sleeve-Dress-Shirts-With-Pocket-Black_985fc373-3764-473e-bb1e-d5cc07a5c1b2.2a602fd8ec509ae2384452dc724c237a.jpeg">
+        <p>Shirt</p>
+        <p>₹500</p>
+        <button onclick="addToCart(0)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+        <img src="https://5.imimg.com/data5/SELLER/Default/2021/4/SY/NH/BC/112875404/whatsapp-image-2021-04-04-at-1-28-59-pm-500x500.jpeg">
+        <p>Jeans</p>
+        <p>₹1200</p>
+        <button onclick="addToCart(1)">Add to Cart</button>
+    </div>
+</div>
+
+<h2>My Cart</h2>
+<ul id="cartList"></ul>
+<h3>Total: ₹<span id="total">0</span></h3>
+
+<script src="index.js"></script>
+</body>
+</html>
